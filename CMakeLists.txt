@@ -15,5 +15,3 @@ link_directories(${LLVM_LIBRARY_DIRS})
 set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(SimpleCountPass)
-
-ADD_LIBRARY(LIBTEST libtest.c)
